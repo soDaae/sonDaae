@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'sag';
+    src: url(../font/사각사각.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sag';
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #FFF8E6;
+}
+
+
+/* header */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #DAFFCF;
+    position: fixed;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+header h2 {
+    padding: 0 20px;
+    font-size: 27px;
+}
+
+header h1 {
+    padding: 0 0 0 130px;
+}
+
+header nav {
+    width: 300px;
+    height: 100%;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    padding: 10px 10px 10px 10px;
+}
+
+header nav ul li.on {
+    background-color: #b4dfa7;
+}
+
+
+/* main */
+main {
+    width: 100%;
+    height: 3700px;
+}
+
+.tab > *.on {
+    background-color: #FFF8E6;
+}
+
+.tab > * {
+    width: 920px;
+    margin: 0 auto;
+}
+
+
+
+
+/* 기본 */
+.basie {
+    margin-top: 400px;
+}
+
+.basie > div {
+    padding-bottom: 300px;
+}
+
+.basie h2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.basie img {
+    border: 15px solid #AAD69A;
+}
+
+
+/* 코딩 */
+.coding {
+    display: none;
+    margin-top: 400px;
+}
+
+.coding h2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.coding img {
+    border: 15px solid #AAD69A;
+}
+
+.coding ul li {
+    padding-bottom: 300px;
+    display: inline-block;
+}
+
+
+/* 영상제작 */
+.motion {
+    display: none;
+    margin-top: 400px;
+}
+
+.motion h2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.motion img {
+    border: 15px solid #AAD69A;
+}
+
+.motion ul li {
+    padding-bottom: 300px;
+    display: inline-block;
+}
+
+
+/* 영상편집 */
+.cut {
+    display: none;
+    margin-top: 400px;
+}
+
+.cut h2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.cut img {
+    border: 15px solid #AAD69A;
+}
+
+.cut ul li {
+    padding-bottom: 300px;
+    display: inline-block;
+}
+
+
+/* 촬영 */
+.pho {
+    display: none;
+    margin-top: 400px;
+}
+
+.pho h2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pho img {
+    border: 15px solid #AAD69A;
+}
+
+.pho ul li {
+    padding-bottom: 300px;
+    display: inline-block;
+}
+
+
+/* 화살표 */
+.arrow {
+    margin: 0 auto;
+    margin-left: 1830px;
+    font-size: 50px;
+    color: #8BB27F;
+}
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #DAFFCF;
+}
+
+footer h1 {
+    text-align: center;
+    line-height: 70px;
+    color: #8BB27F;
+}
