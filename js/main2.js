@@ -8,7 +8,7 @@ $(function() {
 
         $('.tab > *').hide().removeClass('on')
         $('.tab > *').eq(idx).show().addClass('on')
-    })   
+    })
     
     $(window).scroll(function() {
         $('.arrow').click(function(e){
@@ -18,4 +18,4 @@ $(function() {
             }, 3000)
         })
     })
-})                                            
+}) 

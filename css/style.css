@@ -71,31 +71,31 @@ main .left {
     position: fixed;
     top: 100px;
     width: 152px;
-    height: 953px;
+    height: 782px;
     border: 1px solid #A2D18F;
 }
 
 main .left ul>li {
     width: 150px;
-    height: 213px;
+    height: 195px;
     background-color: #D9EAD3;
     border: 14px solid #ECFFE6;
 }
 
 main .left li:nth-child(1) img {
-    padding: 23px 0;
+    padding: 13px 0;
 }
 
 main .left li:nth-child(2) img {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 main .left li:nth-child(3) img {
-    padding: 37px 0;
+    padding: 28px 0;
 }
 
 main .left li:nth-child(4) img {
-    padding: 47px 11px;
+    padding: 33px 11px;
 }
 
 main .left ul>li:nth-child(1) {
@@ -442,4 +442,8 @@ footer h1 {
     text-align: center;
     line-height: 70px;
     color: #8BB27F;
+}
+
+footer img {
+    left:  915px;
 }
